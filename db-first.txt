@@ -1,0 +1,12 @@
+id                     INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+modello                VARCHAR(50), NOT NULL
+colore                 VARCHAR(30), NULL
+prezzo         		FLOAT(7, 2), NULL
+casa_produttrice       VARCHAR(40), NULL
+anno_uscita            YEAR, NOT NULL
+condizione             CHAR(13), NOT NULL
+km_percorsi		FLOAT(6, 2)
+disponibilità          TINYINT, NOT NULL  
+quantità               TINYINT, NOT NULL
+tipologia              TEXT, NULL
+rateizzazione		FLOAT(6,2)
